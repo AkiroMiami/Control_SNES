@@ -10,10 +10,10 @@ background_image = pygame.image.load('./templates/control.png').convert()
 frameReact = pygame.Rect((0, 0), (width, height))
 
 crosshair = pygame.surface.Surface((10, 10))
-pygame.draw.circle(crosshair, pygame.Color("white"), (5, 5), 10, 0)
+pygame.draw.circle(crosshair, pygame.Color("black"), (5, 5), 10, 0)
 
 crosshairb = pygame.surface.Surface((10, 10))
-pygame.draw.circle(crosshairb, pygame.Color("red"), (5, 5), 5, 0)
+pygame.draw.circle(crosshairb, pygame.Color("green"), (5, 5), 5, 0)
 
 
 
